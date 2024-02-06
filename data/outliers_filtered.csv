@@ -1,0 +1,15 @@
+country,country_code,independent,dependent,outlying_start_year,outlying_end_year
+China,CHN,democracy,fdi_pc,1992,1995
+Tunisia,TUN,is_mena,democracy,2011,2020
+Costa Rica,CRI,is_latam,log_gdp_pc; fdi_pc,1949,2015
+Botswana,BWA,cpi; natural_resources,gdp_growth,1990,2006
+United States of America,USA,healthcare_spending_pc,disability_adjusted_life_years,2004,2004
+United States of America,USA,log_gdp_pc,union_strength; left_representation,2004,2011
+India,IND,female_literacy; is_mena,female_workforce_participation,2000,2015
+Brazil,BRA,democracy,military_spending_of_gdp,1995,2006
+Mexico,MEX,democracy,human_rights,1948,2008
+Hungary,HUN,is_eu,democracy,2010,2023
+Singapore,SGP,democracy,gdp_growth,1965,2005
+Tanzania,TZA,ethnic_fractionalization,peace,1992,2020
+Colombia,COL,healthcare_spending_pc,disability_adjusted_life_years,2000,2016
+Norway,NOR,natural_resources,liberal_immigration_policy,1970,2013

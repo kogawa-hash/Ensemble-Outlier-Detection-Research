@@ -1,0 +1,57 @@
+Type,Abbr,Algorithm,Year,Class
+Probabilistic,ECOD,Unsupervised Outlier Detection Using Empirical Cumulative Distribution Functions,2022,pyod.models.ecod.ECOD
+Probabilistic,COPOD,COPOD: Copula-Based Outlier Detection,2020,pyod.models.copod.COPOD
+Probabilistic,ABOD,Angle-Based Outlier Detection,2008,pyod.models.abod.ABOD
+Probabilistic,FastABOD,Fast Angle-Based Outlier Detection using approximation,2008,pyod.models.abod.ABOD
+Probabilistic,MAD,Median Absolute Deviation (MAD),1993,pyod.models.mad.MAD
+Probabilistic,SOS,Stochastic Outlier Selection,2012,pyod.models.sos.SOS
+Probabilistic,QMCD,Quasi-Monte Carlo Discrepancy outlier detection,2001,pyod.models.qmcd.QMCD
+Probabilistic,KDE,Outlier Detection with Kernel Density Functions,2007,pyod.models.kde.KDE
+Probabilistic,Sampling,Rapid distance-based outlier detection via sampling,2013,pyod.models.sampling.Sampling
+Probabilistic,GMM,Probabilistic Mixture Modeling for Outlier Analysis,,pyod.models.gmm.GMM
+Linear Model,PCA,Principal Component Analysis (the sum of weighted projected distances to the eigenvector hyperplanes),2003,pyod.models.pca.PCA
+Linear Model,KPCA,Kernel Principal Component Analysis,2007,pyod.models.kpca.KPCA
+Linear Model,MCD,Minimum Covariance Determinant (use the mahalanobis distances as the outlier scores),1999,pyod.models.mcd.MCD
+Linear Model,CD,Use Cook’s distance for outlier detection,1977,pyod.models.cd.CD
+Linear Model,OCSVM,One-Class Support Vector Machines,2001,pyod.models.ocsvm.OCSVM
+Linear Model,LMDD,Deviation-based Outlier Detection (LMDD),1996,pyod.models.lmdd.LMDD
+Proximity-Based,LOF,Local Outlier Factor,2000,pyod.models.lof.LOF
+Proximity-Based,COF,Connectivity-Based Outlier Factor,2002,pyod.models.cof.COF
+Proximity-Based,Incr. COF,Memory Efficient Connectivity-Based Outlier Factor (slower but reduce storage complexity),2002,pyod.models.cof.COF
+Proximity-Based,CBLOF,Clustering-Based Local Outlier Factor,2003,pyod.models.cblof.CBLOF
+Proximity-Based,LOCI,LOCI: Fast outlier detection using the local correlation integral,2003,pyod.models.loci.LOCI
+Proximity-Based,HBOS,Histogram-based Outlier Score,2012,pyod.models.hbos.HBOS
+Proximity-Based,kNN,k Nearest Neighbors (use the distance to the kth nearest neighbor as the outlier score,2000,pyod.models.knn.KNN
+Proximity-Based,AvgKNN,Average kNN (use the average distance to k nearest neighbors as the outlier score),2002,pyod.models.knn.KNN
+Proximity-Based,MedKNN,Median kNN (use the median distance to k nearest neighbors as the outlier score),2002,pyod.models.knn.KNN
+Proximity-Based,SOD,Subspace Outlier Detection,2009,pyod.models.sod.SOD
+Proximity-Based,ROD,Rotation-based Outlier Detection,2020,pyod.models.rod.ROD
+Outlier Ensembles,IForest,Isolation Forest,2008,pyod.models.iforest.IForest
+Outlier Ensembles,INNE,Isolation-based Anomaly Detection Using Nearest-Neighbor Ensembles,2018,pyod.models.inne.INNE
+Outlier Ensembles,DIF,Deep Isolation Forest for Anomaly Detection,2023,pyod.models.dif.DIF
+Outlier Ensembles,FB,Feature Bagging,2005,pyod.models.feature_bagging.FeatureBagging
+Outlier Ensembles,LSCP,LSCP: Locally Selective Combination of Parallel Outlier Ensembles,2019,pyod.models.lscp.LSCP
+Outlier Ensembles,XGBOD,Extreme Boosting Based Outlier Detection (Supervised),2018,pyod.models.xgbod.XGBOD
+Outlier Ensembles,LODA,Lightweight On-line Detector of Anomalies,2016,pyod.models.loda.LODA
+Outlier Ensembles,SUOD,SUOD: Accelerating Large-scale Unsupervised Heterogeneous Outlier Detection (Acceleration),2021,pyod.models.suod.SUOD
+Neural Networks,AutoEncoder,Fully connected AutoEncoder (use reconstruction error as the outlier score),2015,pyod.models.auto_encoder.AutoEncoder
+Neural Networks,VAE,Variational AutoEncoder (use reconstruction error as the outlier score),2013,pyod.models.vae.VAE
+Neural Networks,Beta-VAE,Variational AutoEncoder (all customized loss term by varying gamma and capacity),2018,pyod.models.vae.VAE
+Neural Networks,SO_GAAL,Single-Objective Generative Adversarial Active Learning,2019,pyod.models.so_gaal.SO_GAAL
+Neural Networks,MO_GAAL,Multiple-Objective Generative Adversarial Active Learning,2019,pyod.models.mo_gaal.MO_GAAL
+Neural Networks,DeepSVDD,Deep One-Class Classification,2018,pyod.models.deep_svdd.DeepSVDD
+Neural Networks,AnoGAN,Anomaly Detection with Generative Adversarial Networks,2017,pyod.models.anogan.AnoGAN
+Neural Networks,ALAD,Adversarially learned anomaly detection,2018,pyod.models.alad.ALAD
+Graph-based,R-Graph,Outlier detection by R-graph,2017,pyod.models.rgraph.RGraph
+Graph-based,LUNAR,LUNAR: Unifying Local Outlier Detection Methods via Graph Neural Networks,2022,pyod.models.lunar.LUNAR
+Outlier Ensembles,LSCP,LSCP: Locally Selective Combination of Parallel Outlier Ensembles,2019,pyod.models.lscp.LSCP
+Outlier Ensembles,XGBOD,Extreme Boosting Based Outlier Detection (Supervised),2018,pyod.models.xgbod.XGBOD
+Outlier Ensembles,LODA,Lightweight On-line Detector of Anomalies,2016,pyod.models.loda.LODA
+Outlier Ensembles,SUOD,SUOD: Accelerating Large-scale Unsupervised Heterogeneous Outlier Detection (Acceleration),2021,pyod.models.suod.SUOD
+Combination,Average,Simple combination by averaging the scores,2015,pyod.models.combination.average()
+Combination,Weighted Average,Simple combination by averaging the scores with detector weights,2015,pyod.models.combination.average()
+Combination,Maximization,Simple combination by taking the maximum scores,2015,pyod.models.combination.maximization()
+Combination,AOM,Average of Maximum,2015,pyod.models.combination.aom()
+Combination,MOA,Maximum of Average,2015,pyod.models.combination.moa()
+Combination,Median,Simple combination by taking the median of the scores,2015,pyod.models.combination.median()
+Combination,majority Vote,Simple combination by taking the majority vote of the labels (weights can be used),2015,pyod.models.combination.majority_vote()
