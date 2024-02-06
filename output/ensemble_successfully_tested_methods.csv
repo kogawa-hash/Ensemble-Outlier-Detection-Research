@@ -1,0 +1,40 @@
+,Type,Abbr,Algorithm,Year,Class,is_pyod,successful_installation,constructor,id,normalization_func
+0,Probabilistic,ECOD,Unsupervised Outlier Detection Using Empirical Cumulative Distribution Functions,2022.0,pyod.models.ecod.ECOD,True,True,<class 'pyod.models.ecod.ECOD'>,ECOD,<function <lambda> at 0x2b0f37100>
+5,Probabilistic,COPOD,COPOD: Copula-Based Outlier Detection,2020.0,pyod.models.copod.COPOD,True,True,<class 'pyod.models.copod.COPOD'>,COPOD,<function <lambda> at 0x2b0f37100>
+10,Probabilistic,QMCD,Quasi-Monte Carlo Discrepancy outlier detection,2001.0,pyod.models.qmcd.QMCD,True,True,<class 'pyod.models.qmcd.QMCD'>,QMCD,<function <lambda> at 0x2b0f37100>
+15,Probabilistic,KDE,Outlier Detection with Kernel Density Functions,2007.0,pyod.models.kde.KDE,True,True,<class 'pyod.models.kde.KDE'>,KDE,<function <lambda> at 0x2b0f37100>
+20,Probabilistic,Sampling,Rapid distance-based outlier detection via sampling,2013.0,pyod.models.sampling.Sampling,True,True,<class 'pyod.models.sampling.Sampling'>,Sampling,<function <lambda> at 0x2b0f37100>
+25,Probabilistic,GMM,Probabilistic Mixture Modeling for Outlier Analysis,,pyod.models.gmm.GMM,True,True,<class 'pyod.models.gmm.GMM'>,GMM,<function <lambda> at 0x2b0f37100>
+30,Linear Model,PCA,Principal Component Analysis (the sum of weighted projected distances to the eigenvector hyperplanes),2003.0,pyod.models.pca.PCA,True,True,<class 'pyod.models.pca.PCA'>,PCA,<function <lambda> at 0x2b0f37100>
+35,Linear Model,KPCA,Kernel Principal Component Analysis,2007.0,pyod.models.kpca.KPCA,True,True,<class 'pyod.models.kpca.KPCA'>,KPCA,<function <lambda> at 0x2b0f37100>
+40,Linear Model,MCD,Minimum Covariance Determinant (use the mahalanobis distances as the outlier scores),1999.0,pyod.models.mcd.MCD,True,True,<class 'pyod.models.mcd.MCD'>,MCD,<function <lambda> at 0x2b0f37100>
+45,Linear Model,CD,Use Cook’s distance for outlier detection,1977.0,pyod.models.cd.CD,True,True,<class 'pyod.models.cd.CD'>,CD,<function <lambda> at 0x2b0f37100>
+50,Linear Model,OCSVM,One-Class Support Vector Machines,2001.0,pyod.models.ocsvm.OCSVM,True,True,<class 'pyod.models.ocsvm.OCSVM'>,OCSVM,<function <lambda> at 0x2b0f37100>
+55,Linear Model,LMDD,Deviation-based Outlier Detection (LMDD),1996.0,pyod.models.lmdd.LMDD,True,True,<class 'pyod.models.lmdd.LMDD'>,LMDD,<function <lambda> at 0x2b0f37100>
+60,Proximity-Based,LOF,Local Outlier Factor,2000.0,pyod.models.lof.LOF,True,True,<class 'pyod.models.lof.LOF'>,LOF,<function <lambda> at 0x2b0f37100>
+65,Proximity-Based,COF,Connectivity-Based Outlier Factor,2002.0,pyod.models.cof.COF,True,True,<class 'pyod.models.cof.COF'>,COF,<function <lambda> at 0x2b0f37100>
+70,Proximity-Based,Incr. COF,Memory Efficient Connectivity-Based Outlier Factor (slower but reduce storage complexity),2002.0,pyod.models.cof.COF,True,True,<class 'pyod.models.cof.COF'>,Incr. COF,<function <lambda> at 0x2b0f37100>
+75,Proximity-Based,CBLOF,Clustering-Based Local Outlier Factor,2003.0,pyod.models.cblof.CBLOF,True,True,<class 'pyod.models.cblof.CBLOF'>,CBLOF,<function <lambda> at 0x2b0f37100>
+80,Proximity-Based,LOCI,LOCI: Fast outlier detection using the local correlation integral,2003.0,pyod.models.loci.LOCI,True,True,<class 'pyod.models.loci.LOCI'>,LOCI,<function <lambda> at 0x2b0f37100>
+85,Proximity-Based,HBOS,Histogram-based Outlier Score,2012.0,pyod.models.hbos.HBOS,True,True,<class 'pyod.models.hbos.HBOS'>,HBOS,<function <lambda> at 0x2b0f37100>
+90,Proximity-Based,kNN,k Nearest Neighbors (use the distance to the kth nearest neighbor as the outlier score,2000.0,pyod.models.knn.KNN,True,True,<class 'pyod.models.knn.KNN'>,kNN,<function <lambda> at 0x2b0f37100>
+95,Proximity-Based,AvgKNN,Average kNN (use the average distance to k nearest neighbors as the outlier score),2002.0,pyod.models.knn.KNN,True,True,<class 'pyod.models.knn.KNN'>,AvgKNN,<function <lambda> at 0x2b0f37100>
+100,Proximity-Based,MedKNN,Median kNN (use the median distance to k nearest neighbors as the outlier score),2002.0,pyod.models.knn.KNN,True,True,<class 'pyod.models.knn.KNN'>,MedKNN,<function <lambda> at 0x2b0f37100>
+105,Proximity-Based,SOD,Subspace Outlier Detection,2009.0,pyod.models.sod.SOD,True,True,<class 'pyod.models.sod.SOD'>,SOD,<function <lambda> at 0x2b0f37100>
+110,Proximity-Based,ROD,Rotation-based Outlier Detection,2020.0,pyod.models.rod.ROD,True,True,<class 'pyod.models.rod.ROD'>,ROD,<function <lambda> at 0x2b0f37100>
+115,Outlier Ensembles,IForest,Isolation Forest,2008.0,pyod.models.iforest.IForest,True,True,<class 'pyod.models.iforest.IForest'>,IForest,<function <lambda> at 0x2b0f37100>
+120,Outlier Ensembles,INNE,Isolation-based Anomaly Detection Using Nearest-Neighbor Ensembles,2018.0,pyod.models.inne.INNE,True,True,<class 'pyod.models.inne.INNE'>,INNE,<function <lambda> at 0x2b0f37100>
+125,Outlier Ensembles,DIF,Deep Isolation Forest for Anomaly Detection,2023.0,pyod.models.dif.DIF,True,True,<class 'pyod.models.dif.DIF'>,DIF,<function <lambda> at 0x2b0f37100>
+130,Outlier Ensembles,FB,Feature Bagging,2005.0,pyod.models.feature_bagging.FeatureBagging,True,True,<class 'pyod.models.feature_bagging.FeatureBagging'>,FB,<function <lambda> at 0x2b0f37100>
+135,Outlier Ensembles,LODA,Lightweight On-line Detector of Anomalies,2016.0,pyod.models.loda.LODA,True,True,<class 'pyod.models.loda.LODA'>,LODA,<function <lambda> at 0x2b0f37100>
+140,Outlier Ensembles,SUOD,SUOD: Accelerating Large-scale Unsupervised Heterogeneous Outlier Detection (Acceleration),2021.0,pyod.models.suod.SUOD,True,True,<class 'pyod.models.suod.SUOD'>,SUOD,<function <lambda> at 0x2b0f37100>
+145,Neural Networks,AutoEncoder,Fully connected AutoEncoder (use reconstruction error as the outlier score),2015.0,pyod.models.auto_encoder.AutoEncoder,True,True,<class 'pyod.models.auto_encoder.AutoEncoder'>,AutoEncoder,<function <lambda> at 0x2b0f37100>
+150,Neural Networks,VAE,Variational AutoEncoder (use reconstruction error as the outlier score),2013.0,pyod.models.vae.VAE,True,True,<class 'pyod.models.vae.VAE'>,VAE,<function <lambda> at 0x2b0f37100>
+155,Neural Networks,Beta-VAE,Variational AutoEncoder (all customized loss term by varying gamma and capacity),2018.0,pyod.models.vae.VAE,True,True,<class 'pyod.models.vae.VAE'>,Beta-VAE,<function <lambda> at 0x2b0f37100>
+160,Neural Networks,SO_GAAL,Single-Objective Generative Adversarial Active Learning,2019.0,pyod.models.so_gaal.SO_GAAL,True,True,<class 'pyod.models.so_gaal.SO_GAAL'>,SO_GAAL,<function <lambda> at 0x2b0f37100>
+165,Neural Networks,MO_GAAL,Multiple-Objective Generative Adversarial Active Learning,2019.0,pyod.models.mo_gaal.MO_GAAL,True,True,<class 'pyod.models.mo_gaal.MO_GAAL'>,MO_GAAL,<function <lambda> at 0x2b0f37100>
+170,Neural Networks,DeepSVDD,Deep One-Class Classification,2018.0,pyod.models.deep_svdd.DeepSVDD,True,True,<class 'pyod.models.deep_svdd.DeepSVDD'>,DeepSVDD,<function <lambda> at 0x2b0f37100>
+175,Neural Networks,AnoGAN,Anomaly Detection with Generative Adversarial Networks,2017.0,pyod.models.anogan.AnoGAN,True,True,<class 'pyod.models.anogan.AnoGAN'>,AnoGAN,<function <lambda> at 0x2b0f37100>
+180,Neural Networks,ALAD,Adversarially learned anomaly detection,2018.0,pyod.models.alad.ALAD,True,True,<class 'pyod.models.alad.ALAD'>,ALAD,<function <lambda> at 0x2b0f37100>
+185,Graph-based,R-Graph,Outlier detection by R-graph,2017.0,pyod.models.rgraph.RGraph,True,True,<class 'pyod.models.rgraph.RGraph'>,R-Graph,<function <lambda> at 0x2b0f37100>
+190,Graph-based,LUNAR,LUNAR: Unifying Local Outlier Detection Methods via Graph Neural Networks,2022.0,pyod.models.lunar.LUNAR,True,True,<class 'pyod.models.lunar.LUNAR'>,LUNAR,<function <lambda> at 0x2b0f37100>
