@@ -1,0 +1,15 @@
+Outlier,Best F1 Score,Best F1 Columns,Best F1 Score Type,Best Accuracy Score,Best Accuracy Columns,Best Accuracy Score Type
+China 1992 - 1995,0.16,LMDD_minmax_scale,Linear,1,LMDD_minmax_scale,Linear
+Tunisia 2011 - 2020,0.588235294,QMCD,Probabilistic,0.555555556,QMCD,Probabilistic
+Costa Rica 1949 - 2015,0.213740458,INNE_robust_scale,Ensemble,0.29787234,INNE_robust_scale,Ensemble
+Botswana 1990 - 2006,0.08411215,LOF_robust_scale,Proximity,0.529411765,LOF_robust_scale,Proximity
+United States 2004 - 2004,0.166666667,HBOS_minmax_scale,Proximity,1,ECOD,Probabilistic
+United States 2004 - 2011,0.158415842,ALAD,Neural Network,1,ALAD,Neural Network
+IND 2000 - 2015,0.171122995,INNE_scale,Ensemble,1,QMCD,Probabilistic
+BRA 1995 - 2006,0.066225166,COF,Proximity,0.416666667,COF,Proximity
+MEX 1948 - 2008,0.077625571,HBOS_scale,Proximity,0.435897436,HBOS_scale,Proximity
+HUN 2010 - 2023,0.6,LODA,Ensemble,0.9,CBLOF,Proximity
+SGP 1965 - 2005,0.070953437,Sampling_scale,Probabilistic,0.444444444,Sampling_scale,Probabilistic
+TZA 1992 - 2020,0.141666667,LODA_robust_scale,Ensemble,0.607142857,LODA_robust_scale,Ensemble
+COL 2000 - 2016,0.046728972,INNE_normalize,Ensemble,0.294117647,INNE_normalize,Ensemble
+NOR 1970 - 2013,0.115523466,DeepSVDD,Neural Network,0.727272727,DeepSVDD,Neural Network
